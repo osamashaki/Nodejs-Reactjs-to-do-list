@@ -1,0 +1,74 @@
+.add-task-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #e0f7fa;
+    color: #00796b;
+    font-weight: bold;
+    text-align: center;
+}
+
+.add-task-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.btns-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.task-column {
+    flex: 1;
+    font-weight: bold;
+    color: #333;
+}
+
+.task-column + .task-column {
+    margin-left: 10px;
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 8px;
+    font-size: 16px;
+    flex: 2;
+}
+
+.add-task-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px; /* Ensure spacing above the button */
+    transition: background-color 0.3s;
+    align-self: center;
+    max-width: 162px;
+}
+
+.add-task-btn:hover {
+    background-color: #0056b3;
+}
